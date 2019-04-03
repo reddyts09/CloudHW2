@@ -167,13 +167,13 @@ This assignment requires us to add REST API endpoints to our application, to acc
 7. To access the REST API Endpoints we use:
 - For /historical :
   ```
-  ec2-18-217-158-13.us-east-2.compute.amazonaws.com/historical
+  http://ec2-18-217-158-13.us-east-2.compute.amazonaws.com/historical
 - For /historical/YYYYMMDD:
   ```
-  ec2-18-217-158-13.us-east-2.compute.amazonaws.com/historical/20130202
+  http://ec2-18-217-158-13.us-east-2.compute.amazonaws.com/historical/20130202
 - For /forecast/YYYYMMDD:
   ```
-  ec2-18-217-158-13.us-east-2.compute.amazonaws.com/forecast/20130209
+  http://ec2-18-217-158-13.us-east-2.compute.amazonaws.com/forecast/20130209
 
 # Built With
 - Django,AWS: Web Framework used
