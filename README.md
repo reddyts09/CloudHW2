@@ -3,7 +3,7 @@ This assignment requires us to add REST API endpoints to our application, to acc
 
 # Configuration Details:
 1. To connect to the aws cloud service:
-- ssh -i "red.pem" ubuntu@ec2-18-217-158-13.us-east-2.compute.amazonaws.com
+- ssh -i "red.pem" ubuntu@ec2-3-17-59-123.us-east-2.compute.amazonaws.com
 
 2. After logging in:
 - sudo apt-get update 
@@ -167,13 +167,13 @@ This assignment requires us to add REST API endpoints to our application, to acc
 7. To access the REST API Endpoints we use:
 - For /historical :
   ```
-  http://ec2-18-217-158-13.us-east-2.compute.amazonaws.com/historical
+  http://ec2-3-17-59-123.us-east-2.compute.amazonaws.com/historical
 - For /historical/YYYYMMDD:
   ```
-  http://ec2-18-217-158-13.us-east-2.compute.amazonaws.com/historical/20130202
+  http://ec2-3-17-59-123.us-east-2.compute.amazonaws.com/historical/20130202
 - For /forecast/YYYYMMDD:
   ```
-  http://ec2-18-217-158-13.us-east-2.compute.amazonaws.com/forecast/20130209
+  http://ec2-3-17-59-123.us-east-2.compute.amazonaws.com/forecast/20130209
 
 # Built With
 - Django,AWS: Web Framework used
